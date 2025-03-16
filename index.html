@@ -31,6 +31,21 @@
             </div>
         </div>
     </div>
-    
+
+
+
+
+    <script>
+        const apikey="abfa07138a13468ca59cc7e07a590356";
+        apiurl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=Mumbai";
+        async function checkweather() {
+            const response=await fetch(apiurl+`&appid=${apikey}`);
+            const data=await response.json();
+            console.log(data);
+            
+        }
+        checkweather();
+
+    </script>
 </body>
 </html>

@@ -70,3 +70,14 @@ body{
     margin-top: 45px;
 
 }
+.col{
+    
+    text-align: left;
+    align-items: center;
+    display: flex;
+    
+}
+.col img{
+    width: 50px;
+    margin-right: 10px;
+}
