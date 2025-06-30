@@ -330,3 +330,15 @@ body{
 }
 
 /* Print styles */
+@media print {
+    body {
+        background: white;
+    }
+    
+    .card {
+        background: white;
+        color: black;
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+}
